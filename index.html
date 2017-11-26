@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title of the document</title>
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen">
+    <link rel="stylesheet" href="css/style.css">
+    <div class="container">
+        <!-- =========================task #1 + #2 -->
+        <h5 class="center-align">Tasks #1 + #2: Max of two numbers</h5>
+        <div class="row valign-wrapper">
+            <div class="col s12 m4 l4">
+                <div class="input-field">
+                    <input id="num1" type="text" class="validate">
+                    <label for="num1">Enter first number</label>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="input-field">
+                    <input id="num2" type="text" class="validate">
+                    <label for="num2">Enter second number</label>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <a id="maxNumIs" class="waves-effect waves-light btn">Max number is...</a>
+            </div>
+        </div>
+        <!-- =========================task #3 -->
+        <h5 class="center-align">Task #3: In which entrance is the your apartment ?</h5>
+        <div class="row valign-wrapper">
+            <div class="col s12 m4 l4">
+                <div class="input-field">
+                    <input id="num3" type="text" class="validate">
+                    <label for="num3">Enter your apartment number ...</label>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <a id="entrance" class="waves-effect waves-light btn">Find the entrance...</a>
+            </div>
+        </div>
+        <!-- =========================task #4 -->
+        <h5 class="center-align">Task #4: Log in ...</h5>
+        <div class="row valign-wrapper">
+            <div class="col s12 m4 l4">
+                <div class="input-field">
+                    <input id="log" type="text" class="validate">
+                    <label for="log">Enter your login ...</label>
+                </div>
+                <div class="input-field">
+                    <input id="pass" type="password" class="validate">
+                    <label for="pass">Enter your password ...</label>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <a id="login" class="waves-effect waves-light btn">LOG IN ...</a>
+            </div>
+        </div>
+        <!-- =========================task #5 -->
+        <h5 class="center-align">Task #5: Parrent control</h5>
+        <div class="row valign-wrapper">
+            <div class="col s12 m4 l4">
+                <div class="input-field">
+                    <input id="age" type="text" class="validate">
+                    <label for="age">Enter your age ...</label>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <a id="prntCtrl" class="waves-effect waves-light btn">Enter ...</a>
+            </div>
+        </div>
+        <!-- =========================task #6 -->
+        <h5 class="center-align">Task #6: What is your experience ?</h5>
+        <div class="row valign-wrapper">
+            <div class="col s12 m4 l4">
+                <div class="input-field">
+                    <input id="expAge" type="text" class="validate">
+                    <label for="expAge">Enter your age ...</label>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <a id="exp" class="waves-effect waves-light btn">Enter your age ...</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+    $("document").ready(function() {
+        $(".button-collapse").sideNav();
+        Materialize.updateTextFields();
+    });
+    </script>
+    <script src="js/main.js" type="text/javascript" charset="utf-8" async defer></script>
+    </body>
+
+</html>
